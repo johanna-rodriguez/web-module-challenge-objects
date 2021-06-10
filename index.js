@@ -19,6 +19,7 @@ function createMenuItem(name, price, category){
     return {name, price, category};
 }
 
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
 Test your createMenuItems function by doing the following:
@@ -28,7 +29,12 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-console.log('task 1b', createMenuItem('pizza', 5, 'lunch'));
+
+const object1 = createMenuItem('pizza', 5, 'lunch')
+const object2 = createMenuItem('burger', 20, 'dinner')
+const object3 = createMenuItem('coke', 1, 'drink')
+
+console.log('task 1b',"\n", object1,"\n",object2,"\n",object3);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -50,7 +56,6 @@ export const burger = {
   category: "Lunch", 
   /*Your code here*/
 }
-
 
 
 ///////////////Reviews (MVP)///////////////////
