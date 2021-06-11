@@ -76,6 +76,8 @@ const reviews = [
     {name: "Reyna", rating: 3.5, feedback: ""},
 ]
 
+
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
@@ -114,10 +116,11 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(array) {
-  /*Your code here*/
+function getReviewByIndex(array,number){
+  return  array[number].name + " gave the restaurant a " + array[number].rating + " star review, and their feedback was: " + array[number].feedback
 }
 
+getReviewByIndex(reviews,0)
 
   
 
